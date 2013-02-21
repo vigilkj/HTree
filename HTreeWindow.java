@@ -68,7 +68,7 @@ public class HTreeWindow extends JFrame implements MouseListener {
 		buffer = offscreen.getGraphics();
 		buffer.setColor(Color.white);
 		
-		buffer.clearRect(0,0,b.width,b.height); 
+		buffer.clearRect(0,0,b.width,b.height);
 		
 		if (tree == null) { // tree not created yet
 			tree = new HTree(b.width / 2, b.height / 2 + 12, 
